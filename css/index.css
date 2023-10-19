@@ -1,0 +1,45 @@
+.landing {
+    height: 100vh;
+    width: 100%;
+}
+
+.Judson {
+    display: inline-block;
+}
+
+.emoji {
+    font-size: 5em;
+    animation: waving-hand 2.5s infinite;
+    transform-origin: 70% 70%;
+}
+
+@keyframes waving-hand {
+    0% { transform: rotate(0deg);}
+    10% { transform: rotate(14deg);}
+    20% { transform: rotate(-8deg);}
+    30% { transform: rotate(14deg);}
+    40% { transform: rotate(-4deg);}
+    50% { transform: rotate(10deg);}
+    60% { transform: rotate(0deg);}
+    100% { transform: rotate(0deg);}
+}
+
+.j-text {
+    font-size: 5em;
+    letter-spacing: 10px;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 2s steps(16),
+        cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% { border-color: transparent; }
+}
+
+@keyframes typing {
+    from { width: 0}
+}
