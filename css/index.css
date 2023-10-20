@@ -1,6 +1,6 @@
-.hello {
+.landing {
     margin-top: 70px;
-    height: 30vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -67,42 +67,4 @@
 
 @keyframes typing {
     from { width: 0}
-}
-
-.im {
-    height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.im .text {
-    position: relative;
-    color: #808080;
-    font-size: 3em;
-}
-
-.im .text.first {
-    color: #000
-}
-
-.text.second:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #fff;
-    border-left: 2px solid #000;
-    animation: type 4s steps(12) infinite;
-}
-
-@keyframes type {
-    40%, 60% {
-        left: 100%;
-    }
-    100% {
-        left: 0%;
-    }
 }
