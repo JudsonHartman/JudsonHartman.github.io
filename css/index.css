@@ -3,6 +3,7 @@
 .hello {
     margin-top: 70px;
     height: 30vh;
+    min-height: 5rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -73,6 +74,7 @@
 
 .im {
     height: 20vh;
+    min-height: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,6 +113,7 @@
 
 .more {
     height: 50vh;
+    min-height: 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -152,6 +155,7 @@
 .about-me {
     display: flex;
     height: 100vh;
+    min-height: 500px;
 }
   
 .slide-in.left {
