@@ -83,3 +83,17 @@ appearOptions);
 sliders.forEach( slider => {
     appearOnScroll.observe(slider);
 });
+
+var resDiv = document.getElementById('resume-shell');
+var resDisplay = 1;
+
+function hideShow() {
+    if (resDisplay == 1) {
+        resDiv.style.display = 'flex';
+        resDisplay = 0;
+    }
+    else {
+        resDiv.style.display = 'none';
+        resDisplay = 1;
+    }
+}
