@@ -128,6 +128,10 @@ body{
     margin-bottom: 15px;
 }
 
+.text-box p{
+    margin-bottom: 15px;
+}
+
 .left-container-arrow{
     height: 0;
     width: 0;
@@ -174,6 +178,10 @@ body{
     .text-box small{
         margin-bottom: 10px;
     }
+
+    .text-box p{
+        margin-bottom: 10px;
+    }    
 
     .right-container{
         left: 0;
