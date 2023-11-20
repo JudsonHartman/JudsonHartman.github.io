@@ -178,3 +178,14 @@ footer {
 .site{
     height: 100vh;
 }
+
+@media screen and (max-width: 1000px){
+    .word,
+    .image {
+        display: none;
+    }
+
+    .image-head{
+        opacity: 1;
+    }
+}
