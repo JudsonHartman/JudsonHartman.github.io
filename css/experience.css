@@ -156,6 +156,34 @@ body{
     left: -15px;
 }
 
+.more-button {
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #464866;
+    color: #464866;
+    background-color: white;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-bottom: 15px;
+}
+
+.more-button:hover{
+    background-color: #464866;
+    color: white;
+}
+
+.hidden-text {
+    display: none;
+}
+
+.hidden-text--show {
+    display: inline-block;
+}
+
 @media screen and (max-width: 1000px){
     .timeline{
         margin: 50px auto;
