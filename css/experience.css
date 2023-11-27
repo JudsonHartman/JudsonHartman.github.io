@@ -63,6 +63,7 @@ body{
     position: relative;
     border-radius: 6px;
     font-size: 15px;
+    font-family: 'Fira Code', monospace;
 }
 
 .left-container{

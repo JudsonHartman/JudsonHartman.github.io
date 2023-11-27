@@ -5,6 +5,30 @@ html, body {
     margin: 0;
 }
 
+header {
+    font-family: 'Fira Code', monospace;
+}
+
+span {
+    font-family: 'Fira Code', monospace;
+}
+
+a {
+    font-family: 'Fira Code', monospace;
+}
+
+p {
+    font-family: 'Fira Code', monospace;
+}
+
+button {
+    font-family: 'Fira Code', monospace;
+}
+
+footer {
+    font-family: 'Fira Code', monospace;
+}
+
 /* Scroll */
 
 ::-webkit-scrollbar {
